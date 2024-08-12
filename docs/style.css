@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anek Devanagari";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#home{
+    background: linear-gradient( rgba(0,0,0, .5), rgba(0,0,0, .5)), url("Images/4k\ Wallpaper\(home\).jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#home .content header{
+    background-color: rgba(0,0,0, .7);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+#home .content header .content-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#home .content header .content-header h1{
+    text-align: center;
+    color: #93ffa1;
+}
+#home .content header .content-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#home .content header .content-header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-weight: 400;
+    transition: .3s;
+    margin-left: 80px;
+}
+#home .content header .content-header nav ul a:hover{
+    color: #93ffa1;
+}
+
+#home .content header .content-header .social a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: 10px;
+    font-size: 25px
+}
+
+#home .content header .content-header .social a:hover{
+    color: #599876;
+}
+
+#home .content header .content-header .selectioned{
+    color: #599876;
+}
+
+#home .content .presentation{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#home .content .presentation .welcome{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#home .content .presentation h2{
+    font-size: 48px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#home .content .presentation h2 span{
+    color: #93ffa1;
+}
+#home .content .presentation .description{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+#home .content .presentation a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 10px 10px;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#home .content .presentation a:hover{
+    background-color: #599876;
+}
+
+#icono-nav{
+    color: #fff;
+    display: none;
+}
+
+/* ABOUT ME SECTION */
+
+#aboutme{
+    max-width: auto;
+    margin: auto;
+    padding: 100px 15px;
+    background-image: linear-gradient(to bottom, #000108, #043826,#010714);  
+    display: flex;
+}
+
+#aboutme .content-picture{
+    max-width: 400px;
+    margin-right: 80px;
+}
+#aboutme .content-picture img{
+    padding: 20px;
+    width: 100%;
+}
+.aboutme{
+    margin: 0 40px;
+}
+
+#aboutme .aboutme .title-section{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #93ffa1;
+    
+}
+
+#aboutme .aboutme h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    color: #fff
+}
+
+#aboutme .aboutme h2 span{
+    color: #93ffa1;
+}
+
+#aboutme .aboutme h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px ;
+    letter-spacing: 1px;
+    color: #fff
+}
+#aboutme .aboutme p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+#aboutme .aboutme a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    transition: .5s;
+    
+}
+
+#aboutme .aboutme a:hover{
+    background-color: #599876;
+}
+
+
+/* SERVICES SECTION */
+
+#services{
+    background: linear-gradient( rgba(0,0,0, .5), rgba(0,0,0, .5)), url(Images/Services\ \(9\).jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 100px 15px;
+    
+}
+#services .title-section{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #93ffa1;
+    
+}
+
+#services .fila{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+#services .fila .services{
+    max-width: 350px;
+    background-color: #0b0c10;
+    padding: 30px;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: .5s;  
+}
+
+#services .fila .services:hover{
+    box-shadow: 3px 3px 7px #93ffa1, -3px -3px 7px #93ffa1;
+}
+
+#services .fila .services .icon{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #0e131b;
+    padding: 20px;
+    margin-bottom: 25px
+}
+
+#services .fila .services hr{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#services .fila .services ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#servicios .fila .services p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+/* SKILLS SECTION*/
+
+#skills .skill-title{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #93ffa1;
+}
+
+.content-skills{
+    background: linear-gradient(#050a11, rgba(5,10,10,.8)), url(Images/Ferns-leaves-dark-green_3840x2160.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.content-skills .skills{
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.content-skills .skills .info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-skills .skills .list{
+    display: inline-block;
+    margin-right: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: #93ffa1;
+}
+
+.content-skills .skills .barra{
+    background-color: #599876;
+    width: 100%;
+    height: 6px;
+    margin: 10px 0;
+}
+
+/*Later with JavaScript */
+
+.content-skills .skills .barra .barra-progreso1{
+    background-color: #93ffa1;
+    width: 50%;
+    height: 6px;
+    animation: progreso1 3s forwards;
+}
+
+.content-skills .skills .barra .barra-progreso2{
+    background-color: #93ffa1;
+    width: 50%;
+    height: 6px;
+    animation: progreso2 3s forwards;
+}
+
+.content-skills .skills .barra .barra-progreso3{
+    background-color: #93ffa1;
+    width: 20%;
+    height: 6px;
+    animation: progreso3 3s forwards;
+}
+
+.content-skills .skills .barra .barra-progreso4{
+    background-color: #93ffa1;
+    width: 90%;
+    height: 6px;
+    animation: progreso4 3s forwards;
+}
+
+.content-skills .skills .barra .barra-progreso5{
+    background-color: #93ffa1;
+    width: 100%;
+    height: 6px;
+    animation: progreso5 3s forwards;
+}
+
+/*Animaciones*/
+
+@keyframes progreso1 {
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+
+@keyframes progreso2 {
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+@keyframes progreso3 {
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+@keyframes progreso4 {
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+@keyframes progreso5 {
+    0%{width: 0;}
+    100%{width: 100%;}
+}
+
+/*Portfolio Section*/
+#portfolio{
+    max-width: auto;
+    margin: auto;
+    padding: 100px 15px;
+    background-image: linear-gradient(to bottom,#010714, #000108);  
+    
+}
+
+#portfolio .title-section{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #93ffa1;
+    
+}
+
+#portfolio .fila{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    
+}
+
+#portfolio .fila .project{
+    max-width: 400px;
+    border: 3px solid #599876;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#portfolio .fila .project img{
+    width: 100%;
+    height: 100%;
+    filter: blur(6px);
+    object-fit: cover;
+    transition: .5s;
+}
+
+#portfolio .fila .project:hover img{
+    filter: blur(0);
+}
+
+#portfolio .fila .project img{
+    height: 300px;
+    width: 450px;
+}
+
+#portfolio .fila .project .info{
+    position: absolute;
+    left: 0;
+    background-color: #0e131b;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: .5s;
+}
+
+#portfolio .fila .project:hover .info{
+    opacity: 1;
+    bottom: 0;
+}
+
+/*Contact Section*/
+
+#contact{
+    max-width: auto;
+    margin: auto;
+    padding: 100px 15px;
+    background-color: #000108;
+    
+}
+
+#contact .title-section{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #93ffa1;
+}
+
+#contact .conteiner{
+    max-width: 1100px;
+    margin: auto;
+    
+}
+
+#contact h2{
+    font-size: 60px;
+    color: #599876;
+    text-align: center;
+}
+
+#contact .conteiner-fila{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#contact .conteiner i{
+    margin-left: 10px;
+    font-size: 30px;
+    color: #93ffa1;
+}
+
+#contact .info{
+    font-size: 20px;
+    margin-left: -100px;
+}
+
+footer{
+    background-image: linear-gradient(to bottom, #000108,#010714);  
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #93ffa1;
+    display: inline-block;
+    margin: 5px;
+    font-size: 36px;
+}
+
+/* Responsive Section */
+
+@media screen and (max-width:800px) {
+    .social{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    nav.responsive{
+        display: block;
+        background-color: rgba(0,0,0, .7);
+        width: 100%;
+        position: absolute;
+        top: 61px;
+        left: 0;
+        padding: 10px 0;
+    }
+    nav.responsive ul{
+        display: block !important;
+        text-align: right;
+    }
+    nav.responsive ul li{
+        margin: 5px 0;
+    }
+    #icono-nav{
+        display: block;
+    }
+    #home .content .presentation h2{
+        font-size: 30px;    
+    }
+    #home .content .presentation .description{
+        font-size: 15px;    
+    }
+    #aboutme{
+        padding: 50px 0;
+        display: block;
+    }
+    #aboutme .content-picture{
+        max-width: 200px;
+        margin: auto; 
+    }
+    #aboutme .content-picture img{
+        padding: 8px;
+    }
+    #aboutme .aboutme .title-section{
+        text-align: center;
+    }
+    #aboutme .aboutme h2{
+        font-size: 30px;
+        text-align: center;
+    }    
+    #services{
+        padding: 50px 15px;
+    }
+    #services .fila{
+        display: block;
+    }
+    #services .fila .services{
+        margin: 10px auto;
+    }
+    #skills{
+        padding: 50px 20px;
+    }
+    #portfolio{
+        padding: 60px 0
+    }
+    #portfolio .fila{
+        display: block;
+    }
+    #portfolio .fila .project{
+        margin: 20px auto;
+    }
+    #portfolio .fila .project {
+        height: 280px;
+        width: 300px;
+    }
+    #contact{
+        padding: 50px 15px;
+    }
+    #contact .conteiner-fila {
+        display: block;
+        
+    }
+    #contact .conteiner-fila .info{
+        font-size: 20px;
+        margin-left: 1px;
+        display: flex;
+        justify-content: center;
+        margin-top: -25px;
+        
+    }
+    #contact .conteiner .conteiner-fila i{
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: left;
+        
+    }
+    
+    
+}

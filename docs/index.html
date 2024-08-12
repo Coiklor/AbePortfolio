@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--Section HOME-->
+    <section id="home">
+        <div class="content">
+            <header>
+                <div class="content-header">
+                    <h1>ABE</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#home" class="selectioned" onclick="selected(link)">HOME</a></li>
+                            <li><a href="#aboutme" onclick="selected(this)">ABOUT ME</a></li>
+                            <li><a href="#portfolio" onclick="selected(this)">PORTFOLIO</a></li>
+                            <li><a href="#skills" onclick="selected(this)">SKILLS</a></li>
+                            <li><a href="#contact" onclick="selected(this)">CONTACT</a></li>
+                        </ul>
+                    </nav>
+
+                    <!--Iconos del menu responsivve-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-sharp fa-solid fa-bars"></i>
+                    </div>
+
+                    <!--Iconos de las redes sociales-->
+                    <div class="social">
+                        <a href="https://github.com/Coiklor"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/abraham-moreno-826519152/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentation">
+                <p class="welcome">Welcome</p>
+                <h2>I'm <span>Abraham Moreno</span>, a Junior <span> Web </span> Developer</h2>
+                <p class="description"> Hello, and thanks for whatch my personal portfolio
+                    i really appreciate that you take your time to see this personal work
+                    , i'm looking for my first job opportunity.
+                </p>
+                <a href="#portfolio">Go to Portfolio</a>
+            </div>
+            
+
+        </div>
+    </section>
+    
+    <!--Section About Me-->
+    <section id="aboutme">
+    <div class="content-picture">
+        <img src="Images/pngwing.com.png" alt="Foto de Abraham">
+    </div>
+    <div class="aboutme">
+        <p class="title-section">ABOUT ME</p>
+        <h2>Hi, I'm <span>Abraham Moreno</span></h2>
+        <h3>Junior Developer</h3>
+        <p>Lorem ipsum tengo hambre con donas y papas, una burger
+            con ensalada de atun con ketchup papas y donas tengo 
+            hambre chamo pagame 3$, lo que me debes,
+        </p>
+        <a href="#">Download CV</a>
+    </div>
+    </section>
+
+    <!--Section Services-->
+    <!--<section id="services">
+        <p class="title-section">Current Services</p>
+        <div class="fila">
+            <div class="services">
+                <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
+                <h4>Web Design</h4>
+                <hr>
+                <ul class="services-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    recrdsaasdsadsadsadasdasdsadasdsada
+                    adsadasasdasdasdadsadsadasdasdsdsda
+                </p>
+            </div>
+            <div class="services">
+                <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
+                <h4>Web Design</h4>
+                <hr>
+                <ul class="services-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    recrdsaasdsadsadsadasdasdsadasdsada
+                    adsadasasdasdasdadsadsadasdasdsdsda
+                </p>
+            </div>
+            <div class="services">
+                <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
+                <h4>Web Design</h4>
+                <hr>
+                <ul class="services-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    recrdsaasdsadsadsadasdasdsadasdsada
+                    adsadasasdasdasdadsadsadasdasdsdsda
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="services">
+                <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
+                <h4>Web Design</h4>
+                <hr>
+                <ul class="services-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    recrdsaasdsadsadsadasdasdsadasdsada
+                    adsadasasdasdasdadsadsadasdasdsdsda
+                </p>
+            </div>
+            <div class="services">
+                <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
+                <h4>Web Design</h4>
+                <hr>
+                <ul class="services-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    recrdsaasdsadsadsadasdasdsadasdsada
+                    adsadasasdasdasdadsadsadasdasdsdsda
+                </p>
+            </div>
+            <div class="services">
+                <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
+                <h4>Web Design</h4>
+                <hr>
+                <ul class="services-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    recrdsaasdsadsadsadasdasdsadasdsada
+                    adsadasasdasdasdadsadsadasdasdsdsda
+                </p>
+            </div>
+        </div>         
+    </section>-->
+
+    <!--Section Portfolio-->
+    <section id="portfolio">
+    <p class="title-section">MY PROJECTS</p>
+    <div class="fila">
+        <div class="project"> <a href="https://coiklor.github.io/#result">
+            <div class="overlay"></div>
+            <img src="Images/Project1.png" alt="">
+            <div class="info">
+                <h4>EMAIL FINDER</h4>
+                <p>As a recruiter, find emails in Belgium was a big challenge, I made an easy app to find it</p>
+            </div>
+        </a></div>
+        <div class="project">
+            <div class="overlay"></div>
+            <img src="Images/Project2.jpg" alt="">
+            <div class="info">
+                <h4>GRAPICH DESIGN PORTFOLIO</h4>
+                <p>I've a good knowledge of Adobe Illustrator & Photoshop, I've made a lot of freelance jobs for any kind of clients </p>
+            </div>
+        </div>
+        <div class="project"> <a href="https://coiklor.github.io/laampage/">
+            <div class="overlay"></div>
+            <img src="Images/Project3.jpg" alt="">
+            <div class="info">
+                <h4>LAAAM COMMERCE</h4>
+                <p>I've started my own businnes of clothes, I'm actualice every day (trying to not paying a server yet)</p>
+            </div>
+        </a></div>
+    </div>
+    <div class="fila">
+        <div class="project">
+            <div class="overlay"></div>
+            <img src="Images/Project4.jpg" alt="">
+            <div class="info">
+                <h4>Project Description</h4>
+                <p>Airlane Web</p>
+            </div>
+        </div>
+        <div class="project">
+            <div class="overlay"></div>
+            <img src="Images/Project4.jpg" alt="">
+            <div class="info">
+                <h4>Project Description</h4>
+                <p>Application</p>
+            </div>
+        </div>
+        <div class="project">
+            <div class="overlay"></div>
+            <img src="Images/Project4.jpg" alt="">
+            <div class="info">
+                <h4>Project Description</h4>
+                <p>Bet page (EarBet)</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--Section Skills-->
+    <div class="content-skills" id="skills">
+        <p class="skill-title">SKILLS</p>
+        <div class="skills">
+            <div class="info">
+                <p><span class="list"></span>HTML</p>
+                <span class="pocentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class=""></div>
+            </div>
+        </div>
+
+
+        <div class="skills">
+            <div class="info">
+                <p><span class="list"></span>CSS</p>
+                <span class="pocentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="css" class=""></div>
+            </div>
+        </div>
+
+
+        <div class="skills">
+            <div class="info">
+                <p><span class="list"></span>JavaScript</p>
+                <span class="pocentaje">50%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class=""></div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="info">
+                <p><span class="list"></span>Photoshop</p>
+                <span class="pocentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="ps" class=""></div>
+            </div>
+
+            <div class="skills">
+                <div class="info">
+                    <p><span class="list"></span>Illustrator</p>
+                    <span class="pocentaje">100%</span>
+                </div>
+                <div class="barra">
+                    <div id="ill" class=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section Contact-->
+
+    <section id="contact">
+        <p class="title-section">Contact</p>
+        <h2>LET'S TALK!</h2>
+        <div class="conteiner">
+            <div class="conteiner-fila">
+            <i class="fa-solid fa-address-book"></i>
+            <p class="info">+58 412-2182385</p>
+    
+            <i class="fa-solid fa-location-dot"></i> 
+            <p class="info">Caracas, Venezuela</p>
+            <i class="fa-solid fa-envelope"></i>
+            <p class="info">Abraham130998@gmail.com</p>
+        </div>
+    </div>
+    </section>
+
+    <!--Section footer-->
+    <footer>
+        <p>All Rights Reserve - 2023</p>
+        <div class="social-networks">
+             <a href="#https://github.com/Coiklor"><i class="fa-brands fa-github"></i></a>
+             <a href="https://www.linkedin.com/in/abraham-moreno-826519152/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
