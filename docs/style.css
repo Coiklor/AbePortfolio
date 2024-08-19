@@ -261,7 +261,85 @@ html {
     font-size: 14px;
     line-height: 22px;
 }
+/* Overlay */
 
+#overlay{
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0, .9000);
+    cursor: pointer;
+    z-index: 1;
+}
+
+#overlay1{
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0, .9000);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.over{
+    max-width: auto;
+    margin: auto;
+    padding: 100px 15px;
+}
+
+.over .content-picture{
+    max-width: 350px;
+    margin-right: 80px;
+}
+
+.over .content-picture img{
+    padding: 20px;
+    width: 100%;
+}
+
+.overy{
+    margin: 0 40px;
+
+}
+.overy .title-section{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #93ffa1;
+}
+.overy h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    color: #fff
+}
+.overy h2 span{
+    color: #93ffa1;
+}
+.overy h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px ;
+    letter-spacing: 1px;
+    color: #fff
+}
+.overy p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 2px;
+}
 
 /* SKILLS SECTION*/
 

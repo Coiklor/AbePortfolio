@@ -41,3 +41,14 @@ function skillsAnimation(){
 
     }
 }
+
+
+let on =(id) =>{
+    let overlay = document.getElementById(id);
+    overlay.style.display = "flex";
+}
+let off=(id)=>{
+    let overlay = document.getElementById(id);
+    overlay.style.display = "none";
+}
+
