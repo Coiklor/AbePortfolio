@@ -273,8 +273,8 @@ html {
     left: 0;
     right: 0;
     background-color: rgba(0,0,0, .9000);
-    cursor: pointer;
     z-index: 1;
+    overflow-y: auto;
 }
 
 #overlay1{
@@ -287,14 +287,99 @@ html {
     left: 0;
     right: 0;
     background-color: rgba(0,0,0, .9000);
-    cursor: pointer;
     z-index: 2;
+    overflow-y: auto;
+}
+
+#overlay2{
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0, .9000);
+    z-index: 2;
+    overflow-y: auto;
+}
+
+#overlay3{
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0, .9000);
+    z-index: 2;
+    overflow-y: auto;
+}
+
+#overlay4{
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0, .9000);
+    z-index: 2;
+    overflow-y: auto;
+}
+
+.image-modal{
+    display: none; 
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 877px;
+    height: 715px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail{
+    cursor: pointer;
+}
+
+.thumbnail:hover{
+    background-color: #93ffa1;
+}
+
+.close-button {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.close-button:hover {
+animation-delay: 2s;
+  color: #fff;
+  cursor: pointer;
 }
 
 .over{
     max-width: auto;
     margin: auto;
     padding: 100px 15px;
+    display: flex;
+}
+
+.hereistheflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
 }
 
 .over .content-picture{
@@ -308,8 +393,7 @@ html {
 }
 
 .overy{
-    margin: 0 40px;
-
+    margin: 0 70px;
 }
 .overy .title-section{
     font-size: 30px;
@@ -323,7 +407,7 @@ html {
     letter-spacing: 2px;
     color: #fff
 }
-.overy h2 span{
+.overy span{
     color: #93ffa1;
 }
 .overy h3{
@@ -422,26 +506,70 @@ html {
     animation: progreso5 3s forwards;
 }
 
+
+.content-skills .skills .barra .barra-progreso6{
+    background-color: #93ffa1;
+    width: 100%;
+    height: 6px;
+    animation: progreso6 3s forwards;
+}
+
+.content-skills .skills .barra .barra-progreso7{
+    background-color: #93ffa1;
+    width: 50%;
+    height: 6px;
+    animation: progreso7 3s forwards;
+}
+
+.content-skills .skills .barra .barra-progreso8{
+    background-color: #93ffa1;
+    width: 60%;
+    height: 6px;
+    animation: progreso8 3s forwards;
+}
+
+.content-skills .skills .barra .barra-progreso9{
+    background-color: #93ffa1;
+    width: 60%;
+    height: 6px;
+    animation: progreso9 3s forwards;
+}
 /*Animaciones*/
 
 @keyframes progreso1 {
     0%{width: 0;}
-    100%{width: 60%;}
+    100%{width: 70%;}
 }
 
 @keyframes progreso2 {
     0%{width: 0;}
-    100%{width: 60%;}
+    100%{width: 70%;}
 }
 @keyframes progreso3 {
     0%{width: 0;}
-    100%{width: 50%;}
+    100%{width: 60%;}
 }
 @keyframes progreso4 {
     0%{width: 0;}
-    100%{width: 90%;}
+    100%{width: 100%;}
 }
 @keyframes progreso5 {
+    0%{width: 0;}
+    100%{width: 100%;}
+}
+@keyframes progreso6 {
+    0%{width: 0;}
+    100%{width: 100%;}
+}
+@keyframes progreso7 {
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+@keyframes progreso8 {
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+@keyframes progreso9 {
     0%{width: 0;}
     100%{width: 100%;}
 }
