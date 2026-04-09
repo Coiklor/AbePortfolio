@@ -477,7 +477,7 @@ animation-delay: 2s;
     max-width: auto;
     margin: auto;
     padding: 100px 15px;
-    background-image: linear-gradient(to bottom,#0b0001,#0c252d ,#000108);  
+    background-image: linear-gradient(to bottom,#0b0001,#012b15 ,#000108);  
     
 }
 
@@ -498,7 +498,7 @@ animation-delay: 2s;
 
 #portfolio .fila .project{
     max-width: 400px;
-    border: 3px solid #01160b;
+    border: 3px solid #012b15;
     margin: 0 10px;
     position: relative;
     overflow: hidden;
