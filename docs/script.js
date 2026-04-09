@@ -24,28 +24,6 @@ function selected(link){
     
 }
 
-// scroll (skills)//
-window.onscroll = function(){
-    skillsAnimation()
-};
-//animation scroll (skills)//
-function skillsAnimation(){
-    var skills = document.getElementById("skills");
-    var distance_skills = window.innerHeight - skills.getBoundingClientRect().top;
-
-    if(distance_skills >=300){
-        document.getElementById("html").classList.add("barra-progreso1");
-        document.getElementById("css").classList.add("barra-progreso2");
-        document.getElementById("js").classList.add("barra-progreso3");
-        document.getElementById("ps").classList.add("barra-progreso4");
-        document.getElementById("Illustrator").classList.add("barra-progreso5");
-        document.getElementById("Figma").classList.add("barra-progreso6");
-        document.getElementById("Spline3D").classList.add("barra-progreso7");
-        document.getElementById("Cysec").classList.add("barra-progreso8");
-        document.getElementById("Github").classList.add("barra-progreso9")
-    }
-}
-
 
 let on =(id) =>{
     let overlay = document.getElementById(id);

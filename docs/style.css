@@ -446,134 +446,30 @@ animation-delay: 2s;
     color: #fff;
 }
 
+.content-skills .flex_skills{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .content-skills .skills{
     max-width: 600px;
     margin: 30px auto;
 }
 
-.content-skills .skills .info{
-    display: flex;
-    justify-content: space-between;
-}
-
 .content-skills .skills .list{
-    display: inline-block;
-    margin-right: 20px;
-    height: 10px;
-    width: 10px;
-    background-color: #93ffa1;
+    height: 100px;
+    width: 100px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: default;
 }
-
-.content-skills .skills .barra{
-    background-color: #599876;
-    width: 100%;
-    height: 6px;
-    margin: 10px 0;
-}
-
-/*Later with JavaScript */
-
-.content-skills .skills .barra .barra-progreso1{
-    background-color: #93ffa1;
-    width: 50%;
-    height: 6px;
-    animation: progreso1 3s forwards;
-}
-
-.content-skills .skills .barra .barra-progreso2{
-    background-color: #93ffa1;
-    width: 50%;
-    height: 6px;
-    animation: progreso2 3s forwards;
-}
-
-.content-skills .skills .barra .barra-progreso3{
-    background-color: #93ffa1;
-    width: 20%;
-    height: 6px;
-    animation: progreso3 3s forwards;
-}
-
-.content-skills .skills .barra .barra-progreso4{
-    background-color: #93ffa1;
-    width: 90%;
-    height: 6px;
-    animation: progreso4 3s forwards;
-}
-
-.content-skills .skills .barra .barra-progreso5{
-    background-color: #93ffa1;
-    width: 100%;
-    height: 6px;
-    animation: progreso5 3s forwards;
-}
-
-
-.content-skills .skills .barra .barra-progreso6{
-    background-color: #93ffa1;
-    width: 100%;
-    height: 6px;
-    animation: progreso6 3s forwards;
-}
-
-.content-skills .skills .barra .barra-progreso7{
-    background-color: #93ffa1;
-    width: 50%;
-    height: 6px;
-    animation: progreso7 3s forwards;
-}
-
-.content-skills .skills .barra .barra-progreso8{
-    background-color: #93ffa1;
-    width: 60%;
-    height: 6px;
-    animation: progreso8 3s forwards;
-}
-
-.content-skills .skills .barra .barra-progreso9{
-    background-color: #93ffa1;
-    width: 60%;
-    height: 6px;
-    animation: progreso9 3s forwards;
-}
-/*Animaciones*/
-
-@keyframes progreso1 {
-    0%{width: 0;}
-    100%{width: 70%;}
-}
-
-@keyframes progreso2 {
-    0%{width: 0;}
-    100%{width: 70%;}
-}
-@keyframes progreso3 {
-    0%{width: 0;}
-    100%{width: 60%;}
-}
-@keyframes progreso4 {
-    0%{width: 0;}
-    100%{width: 100%;}
-}
-@keyframes progreso5 {
-    0%{width: 0;}
-    100%{width: 100%;}
-}
-@keyframes progreso6 {
-    0%{width: 0;}
-    100%{width: 100%;}
-}
-@keyframes progreso7 {
-    0%{width: 0;}
-    100%{width: 50%;}
-}
-@keyframes progreso8 {
-    0%{width: 0;}
-    100%{width: 60%;}
-}
-@keyframes progreso9 {
-    0%{width: 0;}
-    100%{width: 100%;}
+.content-skills .skills .list:hover{
+    transform: translateY(-10px) scale(1.05);
+    filter: brightness(1.2); 
 }
 
 /*Portfolio Section*/
@@ -602,7 +498,7 @@ animation-delay: 2s;
 
 #portfolio .fila .project{
     max-width: 400px;
-    border: 3px solid #599876;
+    border: 3px solid #01160b;
     margin: 0 10px;
     position: relative;
     overflow: hidden;
@@ -771,6 +667,15 @@ footer a{
     #skills{
         padding: 50px 20px;
     }
+    .content-skills .flex_skills{
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px; 
+        justify-items: center;
+        align-items: center; 
+        font-size: 10px;
+        margin: 0 auto; 
+    }
     #portfolio{
         padding: 60px 0
     }
@@ -806,7 +711,5 @@ footer a{
         display: flex;
         justify-content: left;
         
-    }
-    
-    
+    }  
 }
